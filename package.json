@@ -1,0 +1,16 @@
+{
+  "name": "delfinai-giedrius-namu-darbai",
+  "version": "1.0.0",
+  "description": "Labas, mes Delfinai!",
+  "main": "app.js",
+  "scripts": {
+    "dev": "dead-server --port=3065 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Giedrius",
+  "license": "MIT",
+  "devDependencies": {
+    "dead-server": "^1.0.6"
+  }
+}
