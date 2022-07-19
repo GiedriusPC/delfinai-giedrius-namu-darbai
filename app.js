@@ -159,6 +159,17 @@ const array1 = [];
 
 /* 6. Sugeneruokite masyvą, kuris būtų sudarytas iš reikšmių, kurios yra pirmame 5 uždavinio masyve, bet nėra antrame 5 uždavinio masyve. */
 
+console.log(`---masyvai-basic-6---`);
+
+let numbers = [];
+	for (let i = 0; i < array1.length; i++) {
+	    if (!array2.includes(array1[i])) {
+	        numbers.push(array1[i])
+	    }
+	};
+	
+	console.log(numbers);
+	
 /* 7. Sugeneruokite masyvą iš elementų, kurie kartojasi abiejuose 5 uždavinio masyvuose. */
 
 /* 8. Sugeneruokite masyvą, kurio indeksus sudarytų pirmo 5 uždavinio masyvo reikšmės, o jo reikšmės iš būtų antrojo masyvo. */
